@@ -1,0 +1,50 @@
+FILES INSIDE THE ZIP:
+----------------------------------------------------
+task1_clip
+   - Store all the output files for Task 1.
+   - Includes:
+     * .png files for the visualization of  locally optimal policies and path
+     * .mat files saving locally and overall optimal policies and path
+
+task2_clip
+   - Store all the output files for Task 2.
+   - Includes:
+     * Optimal policy (`optimal_policy_epsilon_exponential_gamma0.9.mat`)
+     * Optimal path states (`qevalstates.mat`)
+     * Visualizations of optimal policy and path
+     * qeval.mat (dummy qeval.mat, originally at the workspace, moved here so that the qeval.mat actually used for 	evaluation can be correctly loaded into the workspace)
+
+A0313771H_RL.pdf
+Final report detailing the implementation, methodology, and results of the RL project.
+
+task1.mat
+MATLAB data file containing the reward matrix used in Task 1.
+
+RL_task1.m
+     * MATLAB script for Task 1. 
+     * Perform Q-Learning under various epsilon settings and gamma values.
+     * Save the output files in 'task1_clip'.
+
+RL_main.m
+     * MATLAB script for Task 2. 
+     * Use an exponential decay epsilon function and fixed gamma = 0.9.
+     * Save the output files in 'task1_clip'.
+
+comparison_of_epsilon.m
+MATLAB script for plotting several epsilon functions to compare their decay behavior over trials.
+
+Comparison of Epsilon Functions.png
+Output figure of the above script visualizing five different exploration decay schemes.
+
+
+
+
+HOW TO RUN:
+----------------------------------------------------
+Open MATLAB and set this folder as the current folder.
+Run 'RL_task1.m'. This will execute Q-learning for all combinations of epsilon and gamma. Outputs will be saved to 'task1_clip'.
+
+Ensure qeval.mat is already loaded.
+Run 'RL_main.m'. Outputs will be saved to 'task2_clip'.
+
+Run 'comparison_of_epsilon.m'. Output figure will be saved in the current folder

@@ -1,0 +1,26 @@
+Type_of_SVM,p,C,Train_Accuracy,Test_Accuracy,Admissible,Has_Hyperplane
+Hard margin with linear kernel,-,-,93.95,92.7734375,1,1
+Hard margin with polynomial kernel,2,-,99.85,91.015625,1,1
+Hard margin with polynomial kernel,3,-,99.9,90.4296875,1,1
+Hard margin with polynomial kernel,4,-,95.1,86.4583333333333,0,1
+Hard margin with polynomial kernel,5,-,91.55,85.2864583333333,0,0
+Soft margin with polynomial kernel,1,0.1,93.35,92.2526041666667,1,1
+Soft margin with polynomial kernel,1,0.6,93.85,92.578125,1,1
+Soft margin with polynomial kernel,1,1.1,93.7,92.5130208333333,1,1
+Soft margin with polynomial kernel,1,2.1,93.9,92.4479166666667,1,1
+Soft margin with polynomial kernel,2,0.1,98.65,92.96875,1,1
+Soft margin with polynomial kernel,2,0.6,99.1,93.0338541666667,1,1
+Soft margin with polynomial kernel,2,1.1,99.15,92.9036458333333,1,1
+Soft margin with polynomial kernel,2,2.1,99.3,93.0989583333333,1,1
+Soft margin with polynomial kernel,3,0.1,98.55,91.796875,1,1
+Soft margin with polynomial kernel,3,0.6,98.3,91.2760416666667,1,1
+Soft margin with polynomial kernel,3,1.1,97.6,90.234375,1,1
+Soft margin with polynomial kernel,3,2.1,97.7,90.3645833333333,1,1
+Soft margin with polynomial kernel,4,0.1,91.15,84.4401041666667,0,1
+Soft margin with polynomial kernel,4,0.6,92.25,84.6354166666667,0,1
+Soft margin with polynomial kernel,4,1.1,91.4,83.3984375,0,1
+Soft margin with polynomial kernel,4,2.1,91.6,83.3333333333333,0,1
+Soft margin with polynomial kernel,5,0.1,87.45,81.9661458333333,0,1
+Soft margin with polynomial kernel,5,0.6,85.95,81.4453125,0,1
+Soft margin with polynomial kernel,5,1.1,86.85,81.3802083333333,0,1
+Soft margin with polynomial kernel,5,2.1,86.95,80.859375,0,1
